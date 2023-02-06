@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+
+.countdown{
+    height: 100px;
+    color: wheat;
+    position: relative;
+    top: -318px;
+    left: 135px;
+    font-family: Poppins, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heart{
+    width: 500px;
+    height: 500px;
+    fill: deepskyblue;
+    animation: coeur 10s ease-in-out infinite;
+}
+
+@keyframes coeur {
+    0%{
+        fill: deepskyblue;
+        scale: 1.2;
+    }
+    25%{
+        fill: hotpink;
+        scale: 1;
+    }
+    50%{
+        fill: deepskyblue;
+        scale: 1.2;
+    }
+    75%{
+        fill: hotpink;
+        scale: 1;
+
+    }
+    100%{
+        fill: deepskyblue;
+        scale: 1.2;
+    }
+}
+
+
+.girl{
+    font-family: Poppins, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -235px;
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    border-radius: 25px;
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.boy{
+    font-family: Poppins, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -235px;
+    height: 100px;
+    width: 300px;
+    background-color: deepskyblue;
+    border-radius: 25px;
+    color: hotpink;
+    cursor: pointer;
+}
+
+.fille{
+    background-color: hotpink;
+    height: 100%;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.panneaux{
+    margin-top: 200px;
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.garcon{
+    background-color: deepskyblue;
+    height: 100%;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.heartMini{
+    width: 100px;
+    height: 100px;
+    fill: deepskyblue;
+    animation: coeur 10s ease-in-out infinite;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+
+.banana{
+    font-size: xx-large;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    height: 50px;
+    left: 38%;
+}
