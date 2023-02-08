@@ -53,36 +53,38 @@ body{
 }
 
 
-.girl{
+.girl {
     font-family: Poppins, sans-serif;
     font-size: xx-large;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -150px;
+    left: 246px;
     height: 100px;
     width: 300px;
     background-color: hotpink;
     border-radius: 25px;
     color: deepskyblue;
     cursor: pointer;
+    top: 330px;
 }
 
-.boy{
+.boy {
     font-family: Poppins, sans-serif;
     font-size: xx-large;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    right: -150px;
+    right: 252px;
     height: 100px;
     width: 300px;
     background-color: deepskyblue;
     border-radius: 25px;
     color: hotpink;
     cursor: pointer;
+    top: 330px;
 }
 
 .fille {
@@ -141,6 +143,6 @@ body{
     top: 60px;
     width: 500px;
     height: 50px;
-    left: 35%;
+    left: 25%;
 }
 
