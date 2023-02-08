@@ -60,7 +60,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -235px;
+    left: -150px;
     height: 100px;
     width: 300px;
     background-color: hotpink;
@@ -76,7 +76,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    right: -235px;
+    right: -150px;
     height: 100px;
     width: 300px;
     background-color: deepskyblue;
@@ -85,12 +85,18 @@ body{
     cursor: pointer;
 }
 
-.fille{
+.fille {
     background-color: hotpink;
     height: 100%;
     flex-direction: column;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: deepskyblue;
+    font-size: 10rem;
 }
 
 .panneaux{
@@ -108,6 +114,12 @@ body{
     flex-direction: column;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    align-items: center;
+    color: hotpink;
+    font-size: 10rem;
 }
 
 .heartMini{
@@ -116,7 +128,7 @@ body{
     fill: deepskyblue;
     animation: coeur 10s ease-in-out infinite;
     position: absolute;
-    left: 50%;
+    left: 48%;
     top: 10px;
 }
 
@@ -126,8 +138,9 @@ body{
     font-weight: bold;
     text-align: center;
     position: absolute;
-    top: 100px;
+    top: 60px;
     width: 500px;
     height: 50px;
-    left: 38%;
+    left: 35%;
 }
+
